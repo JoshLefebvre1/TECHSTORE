@@ -1,0 +1,183 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Assignment2.MasterPage" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+<title>Assignment 2: Technology Store </title>
+
+
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"> </script>
+<!-- Custom Theme files -->
+<link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+<!--theme-style-->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="New Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+<!--fonts-->
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'><!--//fonts-->
+
+<!-- start menu -->
+<link href="css/memenu.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="js/memenu.js"></script>
+<script>$(document).ready(function(){$(".memenu").memenu();});</script>
+<script src="js/simpleCart.min.js"> </script>
+
+
+</head>
+
+
+<body>
+<form runat="server">
+<div class="header">
+    
+    <!--Top Header-->
+	<div class="header-top">
+		<div class="container">
+			<div class="search">
+			    <input type="text" value="Search " onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+			    <input type="submit" value="Go">
+			</div>
+			<div class="header-left">		
+					<ul>
+						<li><asp:HyperLink ID="registerUsername" runat="server" Text="" NavigateUrl=""/></li>
+						<li><asp:HyperLink ID="loginLogout" runat="server" Text="" NavigateUrl=""/></li>
+					</ul>
+					<div class="cart box_1">
+						<a href="Cart.aspx">
+						<div class="total">
+                            <h3> 
+                                <asp:Label ID="cartLabel" runat="server" Text="Label"></asp:Label>
+							    <img src="images/cart.png" alt=""/>
+                            </h3>
+                        </div>
+						</a>
+						<p><a href="#" runat="server" onServerClick="deleteCookies">Empty Cart</a></p>
+
+					</div>
+					<div class="clearfix"> </div>
+			</div>
+				<div class="clearfix"> </div>
+		</div>
+		</div>
+        <!--End of Top Header-->
+        
+        <!--Nav Bar-->
+		<div class="container">
+			<div class="head-top">
+				<div class="logo">
+					<a href="Default.aspx"><img src="images/Capture.gif" alt="" class="logoImage"></a>	
+				</div>
+		  <div class=" h_menu4">
+					<ul class="memenu skyblue">
+					  <li class="grid"><a class="color5" href="Default.aspx">Home</a></li>	
+                      <li><a class="color1" href="#">Products</a>
+				      	<div class="mepanel">
+						<div class="row">
+							<div class="col1">
+								<div class="h_nav h_nav2">
+									<ul>
+                                            <asp:Repeater ID="Repeater1" runat="server">
+                                            <HeaderTemplate><h4>Categories</h4></HeaderTemplate>
+                                            <ItemTemplate>
+                                                        <asp:HyperLink ID="Link1" runat="server" CssClass="" NavigateUrl='<%# Eval("Name", "~/CategoryDetails.aspx?category={0}") %>' Text='<%#Eval("Name")%>' />
+                                                        <br />
+                                            </ItemTemplate>
+                                            <FooterTemplate> </FooterTemplate>
+                                        </asp:Repeater>
+									</ul>	
+								</div>							
+							</div>
+							
+							<div class="col1">
+								<div class="h_nav">
+									<h4>Popular Brands</h4>
+									<ul>
+										<li><a href="default.aspx">Hewlit Packer</a></li>
+										<li><a href="default.aspx">Lenova</a></li>
+										<li><a href="default.aspx">Alienware</a></li>
+										<li><a href="default.aspx">Samsung</a></li>
+										<li><a href="default.aspx">Acer</a></li>
+										<li><a href="default.aspx">Apple</a></li>
+										<li><a href="default.aspx">Sony</a></li>
+										<li><a href="default.aspx">Intel</a></li>
+										<li><a href="default.aspx">Cannon</a></li>
+									</ul>	
+								</div>												
+							</div>
+						  </div>
+						</div>
+					</li> 
+				<li><a class="color4" href="#">Services</a></li>				
+				<li><a class="color6" href="Contact.aspx">Contact</a></li>
+			  </ul> 
+			</div>
+				
+				<div class="clearfix"> </div>
+		</div>
+		</div>
+        <!--End of Nav Bar-->
+	</div>
+    
+	<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+    </asp:ContentPlaceHolder>
+    </form>
+
+
+    <div class="footer">
+	    <div class="container">
+			<div class="footer-top-at">
+			
+				<div class="col-md-4 amet-sed">
+				<h4>MORE INFO</h4>
+				<ul class="nav-bottom">
+						<li><a href="#">How to order</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="contact.html">Location</a></li>
+						<li><a href="#">Shipping</a></li>
+						<li><a href="#">Membership</a></li>	
+					</ul>	
+				</div>
+				<div class="col-md-4 amet-sed ">
+				<h4>CONTACT US</h4>
+				
+					<p>Josh Lefebvre</p>
+					<p>Algonquin College</p>
+					<p>Email: lefe0162@algonquinlive.com</p>
+					<ul class="social">
+						<li><a href="#"><i> </i></a></li>						
+						<li><a href="#"><i class="twitter"> </i></a></li>
+						<li><a href="#"><i class="rss"> </i></a></li>
+						<li><a href="#"><i class="gmail"> </i></a></li>
+						
+					</ul>
+				</div>
+				<div class="col-md-4 amet-sed">
+					<h4>Newsletter</h4>
+					<p>Sign Up to get all news update and promo</p>
+					<form>
+						<input type="text" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+						<input type="submit" value="Sign up">
+					</form>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+
+		<div class="footer-class">
+		<p >© 2016 Josh Lefebvre Assignment2 All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> and Josh Lefebvre</p>
+		</div>
+		</div>
+</body>
+</html>

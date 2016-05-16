@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\JishL\Desktop\CST8359 .NET Enterprise Application Development\Labs\Assignment 2\Deployement</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Admin/AddCategory.aspx">
+      <publishTime>04/15/2016 20:31:02</publishTime>
+    </File>
+    <File Include="Admin/AddProduct.aspx">
+      <publishTime>04/15/2016 20:32:14</publishTime>
+    </File>
+    <File Include="Admin/AdminHome.aspx">
+      <publishTime>04/15/2016 20:18:34</publishTime>
+    </File>
+    <File Include="Admin/BadWords.aspx">
+      <publishTime>04/15/2016 20:31:27</publishTime>
+    </File>
+    <File Include="Admin/EditCategory.aspx">
+      <publishTime>04/16/2016 14:13:45</publishTime>
+    </File>
+    <File Include="Admin/EditProduct.aspx">
+      <publishTime>04/15/2016 22:06:53</publishTime>
+    </File>
+    <File Include="Admin/MasterPageAdminMenu.Master">
+      <publishTime>04/17/2016 12:21:02</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>03/19/2016 17:07:58</publishTime>
+    </File>
+    <File Include="bin/Assignment2.dll">
+      <publishTime>04/17/2016 13:38:21</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.Data.Edm.resources.dll">
+      <publishTime>03/19/2016 23:00:00</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.Data.OData.resources.dll">
+      <publishTime>03/19/2016 23:00:11</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.Data.Services.Client.resources.dll">
+      <publishTime>03/19/2016 23:00:16</publishTime>
+    </File>
+    <File Include="bin/de/System.Spatial.resources.dll">
+      <publishTime>03/19/2016 23:00:08</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>03/18/2016 15:15:57</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>03/18/2016 15:15:57</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Data.Edm.resources.dll">
+      <publishTime>03/19/2016 23:00:00</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Data.OData.resources.dll">
+      <publishTime>03/19/2016 23:00:12</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Data.Services.Client.resources.dll">
+      <publishTime>03/19/2016 23:00:16</publishTime>
+    </File>
+    <File Include="bin/es/System.Spatial.resources.dll">
+      <publishTime>03/19/2016 23:00:08</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.Data.Edm.resources.dll">
+      <publishTime>03/19/2016 23:00:00</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.Data.OData.resources.dll">
+      <publishTime>03/19/2016 23:00:12</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.Data.Services.Client.resources.dll">
+      <publishTime>03/19/2016 23:00:16</publishTime>
+    </File>
+    <File Include="bin/fr/System.Spatial.resources.dll">
+      <publishTime>03/19/2016 23:00:08</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.Data.Edm.resources.dll">
+      <publishTime>03/19/2016 23:00:00</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.Data.OData.resources.dll">
+      <publishTime>03/19/2016 23:00:12</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.Data.Services.Client.resources.dll">
+      <publishTime>03/19/2016 23:00:16</publishTime>
+    </File>
+    <File Include="bin/it/System.Spatial.resources.dll">
+      <publishTime>03/19/2016 23:00:08</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.Data.Edm.resources.dll">
+      <publishTime>03/19/2016 23:00:00</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.Data.OData.resources.dll">
+      <publishTime>03/19/2016 23:00:12</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.Data.Services.Client.resources.dll">
+      <publishTime>03/19/2016 23:00:17</publishTime>
+    </File>
+    <File Include="bin/ja/System.Spatial.resources.dll">
+      <publishTime>03/19/2016 23:00:08</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.Data.Edm.resources.dll">
+      <publishTime>03/19/2016 23:00:00</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.Data.OData.resources.dll">
+      <publishTime>03/19/2016 23:00:12</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.Data.Services.Client.resources.dll">
+      <publishTime>03/19/2016 23:00:17</publishTime>
+    </File>
+    <File Include="bin/ko/System.Spatial.resources.dll">
+      <publishTime>03/19/2016 23:00:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Azure.KeyVault.Core.dll">
+      <publishTime>03/19/2016 22:59:59</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>03/17/2016 21:53:01</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.Edm.dll">
+      <publishTime>03/19/2016 23:00:00</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.OData.dll">
+      <publishTime>03/19/2016 23:00:11</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.Services.Client.dll">
+      <publishTime>03/19/2016 23:00:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.WindowsAzure.Configuration.dll">
+      <publishTime>03/20/2016 21:17:43</publishTime>
+    </File>
+    <File Include="bin/Microsoft.WindowsAzure.Storage.dll">
+      <publishTime>03/20/2016 23:18:21</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/19/2016 23:00:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>03/17/2016 21:53:01</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>03/17/2016 21:53:01</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>03/17/2016 21:53:01</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>03/17/2016 21:53:01</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>03/17/2016 21:53:01</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>03/17/2016 21:53:01</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>03/17/2016 21:53:01</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>03/17/2016 21:53:01</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>03/17/2016 21:53:01</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>03/17/2016 21:53:01</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>03/17/2016 21:53:01</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>03/17/2016 21:53:01</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.Data.Edm.resources.dll">
+      <publishTime>03/19/2016 23:00:00</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.Data.OData.resources.dll">
+      <publishTime>03/19/2016 23:00:12</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.Data.Services.Client.resources.dll">
+      <publishTime>03/19/2016 23:00:17</publishTime>
+    </File>
+    <File Include="bin/ru/System.Spatial.resources.dll">
+      <publishTime>03/19/2016 23:00:08</publishTime>
+    </File>
+    <File Include="bin/System.Spatial.dll">
+      <publishTime>03/19/2016 23:00:08</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Data.Edm.resources.dll">
+      <publishTime>03/19/2016 23:00:00</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Data.OData.resources.dll">
+      <publishTime>03/19/2016 23:00:12</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Data.Services.Client.resources.dll">
+      <publishTime>03/19/2016 23:00:17</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Spatial.resources.dll">
+      <publishTime>03/19/2016 23:00:08</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.Data.Edm.resources.dll">
+      <publishTime>03/19/2016 23:00:00</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.Data.OData.resources.dll">
+      <publishTime>03/19/2016 23:00:12</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.Data.Services.Client.resources.dll">
+      <publishTime>03/19/2016 23:00:18</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Spatial.resources.dll">
+      <publishTime>03/19/2016 23:00:08</publishTime>
+    </File>
+    <File Include="Cart.aspx">
+      <publishTime>04/17/2016 12:04:18</publishTime>
+    </File>
+    <File Include="CategoryDetails.aspx">
+      <publishTime>04/16/2016 23:31:05</publishTime>
+    </File>
+    <File Include="Checkout.aspx">
+      <publishTime>04/17/2016 13:36:05</publishTime>
+    </File>
+    <File Include="Contact.aspx">
+      <publishTime>04/15/2016 23:11:56</publishTime>
+    </File>
+    <File Include="css/custom.css">
+      <publishTime>04/16/2016 22:28:33</publishTime>
+    </File>
+    <File Include="css/flexslider.css">
+      <publishTime>03/17/2016 21:59:58</publishTime>
+    </File>
+    <File Include="css/memenu.css">
+      <publishTime>04/14/2016 14:41:26</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>04/16/2016 22:11:53</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>04/17/2016 13:23:48</publishTime>
+    </File>
+    <File Include="GetFileHandler.ashx">
+      <publishTime>03/26/2016 23:20:43</publishTime>
+    </File>
+    <File Include="images/Capture.PNG">
+      <publishTime>04/15/2016 19:01:44</publishTime>
+    </File>
+    <File Include="images/Capture2.png">
+      <publishTime>03/18/2016 10:38:59</publishTime>
+    </File>
+    <File Include="images/store.jpg">
+      <publishTime>04/14/2016 14:06:58</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>04/14/2016 15:32:18</publishTime>
+    </File>
+    <File Include="js/jquery.flexslider.js">
+      <publishTime>03/17/2016 21:59:58</publishTime>
+    </File>
+    <File Include="js/jquery.min.js">
+      <publishTime>03/17/2016 21:59:58</publishTime>
+    </File>
+    <File Include="js/main.js">
+      <publishTime>04/02/2016 17:30:30</publishTime>
+    </File>
+    <File Include="js/memenu.js">
+      <publishTime>03/17/2016 21:59:58</publishTime>
+    </File>
+    <File Include="js/responsiveslides.min.js">
+      <publishTime>03/17/2016 21:59:58</publishTime>
+    </File>
+    <File Include="js/simpleCart.min.js">
+      <publishTime>03/17/2016 21:59:58</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>04/17/2016 13:31:08</publishTime>
+    </File>
+    <File Include="Logout.aspx">
+      <publishTime>04/14/2016 23:13:29</publishTime>
+    </File>
+    <File Include="MasterPage.Master">
+      <publishTime>04/17/2016 12:07:52</publishTime>
+    </File>
+    <File Include="Model1.edmx.diagram">
+      <publishTime>04/14/2016 21:58:34</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>03/20/2016 21:17:43</publishTime>
+    </File>
+    <File Include="ProductDetails.aspx">
+      <publishTime>04/16/2016 23:32:36</publishTime>
+    </File>
+    <File Include="Register.aspx">
+      <publishTime>04/15/2016 12:21:57</publishTime>
+    </File>
+    <File Include="Service References/LoginService/Assignment2.LoginService.AlgonquinCollegeUser.datasource">
+      <publishTime>04/02/2016 11:04:26</publishTime>
+    </File>
+    <File Include="Service References/LoginService/Assignment2.LoginService.AlgonquinCollegeUserExtended.datasource">
+      <publishTime>04/02/2016 11:04:26</publishTime>
+    </File>
+    <File Include="Service References/LoginService/Assignment2.LoginService.AuthenticateUserExtendedResponse.datasource">
+      <publishTime>04/02/2016 11:04:26</publishTime>
+    </File>
+    <File Include="Service References/LoginService/Assignment2.LoginService.AuthenticateUserResponse.datasource">
+      <publishTime>04/02/2016 11:04:26</publishTime>
+    </File>
+    <File Include="Service References/LoginService/Assignment2.LoginService.GetUserInfoResponse.datasource">
+      <publishTime>04/02/2016 11:04:26</publishTime>
+    </File>
+    <File Include="Service References/LoginService/Assignment2.LoginService.SearchUsersByLastNameResponse.datasource">
+      <publishTime>04/02/2016 11:04:26</publishTime>
+    </File>
+    <File Include="ThankYou.aspx">
+      <publishTime>04/16/2016 23:11:38</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/17/2016 13:38:22</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
